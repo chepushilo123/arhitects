@@ -1,0 +1,38 @@
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    margin-left: 0;
+}
+
+.arrow_link_black {
+    margin: 0;
+}
+
+.p_gray {
+    display: block;
+    color: rgb(207, 207, 207);
+    margin-left: 0;
+}
+
+@media all and (max-width: 1300px) {
+
+    main {
+        margin: 100px 4%;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+}
